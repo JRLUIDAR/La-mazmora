@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer juego JS</title>
+    <script src="js/juego.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<h1 style='text-align: center;'>La mazmora</h1>
+<hr>
+<body onload="inicializar();">
+    <div id='tiempo'>
+        <p> &nbsp; Tiempo &nbsp;</p>
+        <p id='minutos'></p>
+        <p>:</p>
+        <p id='secundos'></p>
+    </div>
+
+     <div id='butones'>
+        <button onclick="stopmusic();" id='mute' >Mute</button>
+        <button onclick="reload();" >Reload</button>
+     </div>
+         
+
+ 
+    <div id='caja'><canvas id='canvas' style="border: 2px solid black" width="1500" height="1000"></canvas></div>
+    
+</body>
+</html>
