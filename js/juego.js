@@ -307,12 +307,12 @@ function music(){
     var sound=true;
 
     mute.addEventListener('click',()=>{
-        if(sound==false){
+        if(sound){
         myAudio.pause();
-        sound=true;
+        sound=false;
         }else{
             myAudio.play();
-            sound=false;
+            sound=true;
         }
         
 
