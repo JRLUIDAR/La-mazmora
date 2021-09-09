@@ -304,7 +304,7 @@ function music(){
     }, false);
     myAudio.play();
     var mute=document.getElementById('mute');
-    var sound=false;
+    var sound=true;
 
     mute.addEventListener('click',()=>{
         if(sound==false){
